@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parsley &mdash; Create an account</title>
+    <link rel="stylesheet" href="css/createAccount.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <link rel="icon" href="images/Parsley-logo-64px.png" />
+    <link rel="apple-touch-icon" href="images/Parsley-log-180px.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="header-logo"
+          alt="Parsley logo"
+          src="images/Parsley-logo-no-bg.png"
+        />
+      </a>
+    </header>
+
+    <main class="login-form">
+      <div class="login-container">
+        <h1>Create a New Account</h1>
+        <p class="subtext">PARSLEY</p>
+
+        <form action="#" id="account-form">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required />
+
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+
+          <div class="terms">
+            <input
+              type="checkbox"
+              id="accept-terms"
+              name="accept-terms"
+              required
+            />
+            <label for="accept-terms">I accept the terms and conditions</label>
+          </div>
+
+          <input type="submit" value="Sign Up" />
+        </form>
+        <p class="login-link">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </div>
+    </main>
+
+    <script src="scripts/createaccount.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

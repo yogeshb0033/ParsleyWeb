@@ -1,0 +1,92 @@
+/**************/
+/* HERO SECTION  */
+/**************/
+
+.pricing-section-hero {
+  text-align: center;
+  padding: 9.6rem 0 !important;
+}
+
+.pricing-section-hero .heading-primary {
+  margin-bottom: 9.6rem !important;
+}
+
+/******************/
+/* TABLE SECTION */
+/******************/
+
+td {
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0.8rem 2.4rem;
+  font-size: 1.4rem;
+}
+
+tr:not(:first-child):not(:last-child):hover {
+  background-color: #415b59;
+  color: #fff;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+tr td:first-child {
+  border-left: 0 none;
+}
+
+td div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+tr td:not(:first-child) {
+  text-align: center;
+}
+
+.price-table {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+  font-size: 1.6rem;
+  max-width: 90%;
+  border-collapse: collapse;
+  border: 0 none;
+}
+
+.price-table-head {
+  background-color: #415b59;
+  color: #ffffff;
+}
+
+.price-table-head td {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+td.price-table-popular {
+  border-top: 3px solid #415b59;
+  color: #415b59;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 48px;
+  font-weight: 700;
+}
+
+.price-blank {
+  background-color: #d7e5e4;
+  border: 0 none;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 1.8rem !important;
+}
+
+.btn.join-now {
+  padding: 1.2rem 1.6rem !important;
+  font-size: 1.4rem !important;
+}
+
+ion-icon {
+  font-size: 2rem;
+}

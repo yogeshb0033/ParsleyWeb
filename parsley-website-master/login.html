@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parsley &mdash; Login Page</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <link rel="icon" href="images/Parsley-logo-64px.png" />
+    <link rel="apple-touch-icon" href="images/Parsley-log-180px.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="header-logo"
+          alt="Parsley logo"
+          src="images/Parsley-logo-no-bg.png"
+        />
+      </a>
+    </header>
+
+    <main class="login-form">
+      <div class="login-container">
+        <h1>You must login to join</h1>
+        <p class="subtext">PARSLEY</p>
+        <button class="google-btn">
+          <ion-icon name="logo-google"></ion-icon>
+          <div>Sign in with Google</div>
+        </button>
+        <button class="apple-btn">
+          <ion-icon name="logo-apple"></ion-icon>
+          <div>Sign in with Apple ID</div>
+        </button>
+
+        <p class="or-text">or</p>
+        <form action="#" method="post">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <div class="forgot-create-account">
+            <a href="#" class="forgot-password">Forgot password?</a>
+
+            <a href="createaccount.html" class="create-account-btn"
+              >Create an Account</a
+            >
+          </div>
+
+          <button
+            type="submit"
+            id="Submit"
+            onclick="handleLogin(); return false;"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <script src="scripts/login.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

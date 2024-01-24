@@ -1,0 +1,58 @@
+.heading-about-us {
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 9.6rem 9.6rem;
+  line-height: 1.05;
+}
+
+.section-video {
+  padding: 9.6rem 0;
+}
+
+.video-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.section-vision {
+  padding: 9.6rem 0;
+}
+
+.section-vision-heading {
+  margin-bottom: 6.4rem !important;
+}
+
+.major-paragraph {
+  font-size: 2.4rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-find-us {
+  padding: 9.6rem 0;
+}
+
+.map-label {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative; /* Add relative positioning to the container */
+}
+
+iframe {
+  border: none;
+  display: block;
+}

@@ -1,0 +1,137 @@
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.index-hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.index-hero-img {
+  width: 100%;
+}
+
+.index-hero-btns {
+  display: flex;
+  gap: 1.6rem;
+}
+
+/**************************/
+/* FEATURED IN SECTION */
+/**************************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/**************************/
+/* HOW TO SECTION */
+/**************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.how-steps {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 1.2rem;
+}
+
+.how-step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.how-step-img-box img {
+  max-width: 100%;
+}
+
+/**************************/
+/* MOCKUP SECTION */
+/**************************/
+
+.section-mockup {
+  padding: 9.6rem 0;
+}
+
+.mockup {
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.mockup-header .heading-secondary {
+  margin-bottom: 4.8rem;
+}
+
+.mockup-img {
+  max-width: 100%;
+  justify-self: end;
+}
+
+.mockup-text {
+  font-size: 5.4rem;
+  font-weight: 700;
+  line-height: 1.03;
+  margin-bottom: 2.4rem;
+}
+
+.mockup-text span {
+  color: #344847;
+}
+
+.download-link {
+  width: 13.2rem;
+  height: 4rem;
+}
+
+.circle-background {
+  position: relative;
+  overflow: hidden; /* This will hide any content that goes beyond the sector */
+}
+
+.circle-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #dae9e8; */
+  background-image: url(../images/pattern.svg);
+  background-size: cover;
+  background-position: top left;
+  transform-origin: top left; /* Set the origin for the clip-path */
+  clip-path: circle(90.1% at 84% 100%); /* Set the sector shape */
+  z-index: -1; /* Ensure the background stays behind the content */
+}
